@@ -5,6 +5,8 @@ function Container() {
   return (
     <div>
       <ListComponet />
+      <ListComponet />
+      <ListComponet />
     </div>
   );
 }
