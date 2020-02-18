@@ -1,14 +1,8 @@
 import React from "react";
 
 function ListItem() {
-  return (
-    <div>
-      <div>pina colada</div>
-      <div>full moon</div>
-      <div>the virgin</div>
-      <div></div>
-      <div></div>
-    </div>
-  );
+     const juce = ["pina colada", "full moon", "the virgin"];
+  const bestJuce = juce.map(juce => <li>{juce}</li>);
+  return <ul>{bestJuce}</ul>;
 }
 export default ListItem;
